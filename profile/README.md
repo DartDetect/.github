@@ -71,6 +71,18 @@
    ```
  
  ## Usage
+- Open the app using the Expo development server, or visit the [Dart Detect App](https://dartdetect-88d33.web.app/).
+- Log in or create a new account.
+- Navigate to  **Training Mode** or **Play Mode** using the navigation bar.
+- Capture and upload images using the device's camera to detect darts.
+- View or manually edit scores if needed in both modes.
+- Navigate to **Dashbaord** to view statistics and previous **Play Mode** stats.
+- Navigate to **PlayHistory** to view and filter all past play mode games and export to CSV to download game stats.
+ 
  
  ## Acknowledgements
+ -  I would like to thank my supervisor, Ihab Salawdeh, for their continuous support 
+and guidance throughout this project.
+- Thanks also to the staff at ATU, and to friends and testers who provided valuable feedback during development.
+
  
