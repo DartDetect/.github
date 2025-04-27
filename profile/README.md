@@ -19,6 +19,32 @@
  
  ## Deployment
  - The frontend is deployed to **Firebase Hosting** for web access:[https://dartdetect-88d33.web.app/](https://dartdetect-88d33.web.app/)
+
+ Steps for deployment:
+ 
+ 1. Install Firebase CLI globally:
+   ```bash
+   npm install -g firebase-tools
+   ```
+ 2. Authenticate Firebase CLI with your Google account:
+   ```bash
+   firebase login
+   ```
+3. Initialise Firebase in the project directory:
+   ```bash
+   firebase init
+   ```
+
+4. Build the Expo project for web:
+   ```bash
+   npx expo export:web
+   ```
+5. Deploy the site to Firebase Hosting:
+    ```bash
+   firebase deploy
+
+   ``` 
+   
  - The backend API runs **locally** for model inference and image processing
 
  ## Setup Instructions
