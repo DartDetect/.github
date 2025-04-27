@@ -22,22 +22,53 @@
  - The backend API runs **locally** for model inference and image processing
 
  ## Setup Instructions
- ```bash
-# Clone the repository:
-git clone https://github.com/DartDetect/dartdetect-cross-platform-app.git
-cd dartdetect-cross-platform-app/dart-detect-app
 
-## Install Dependencies
-```bash
-npm install
+ ### Frontend Setup (React Native App)
+ 1. Clone the repository:
+    ```bash
+    git clone https://github.com/DartDetect/dartdetect-cross-platform-app.git
+    cd dartdetect-cross-platform-app/dart-detect-app
+    ```
+    
+ 2. Install Dependencies:
+    ```bash
+    npm install
+    ```
 
-## Start the Expo development server
-```bash
-npx expo start
+ 3. Start the Application:
+    ```bash
+    npx expo start
+    ```
+    
+ The app can be opened on a web browser or for mobile, simply scan the QR code using the EXPO GO app.
 
- 
-
- ### Frontend 
+### Backend Setup (Flask API)
+1. Clone the repository:
+   ```bash
+   https://github.com/DartDetect/dartboard-backend-api.git
+   cd dartboard-backend-api
+   ```
+2. Create a Python virtual environment:
+   ```bash
+   python -m venv venv
+   ```
+3. Activate the virtual environment:
+   ```bash
+   venv\Scripts\activate
+   ```
+4. Install Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. To run the backend Server:
+    ```bash
+   Python app.py
+   ```
+6. Python path might have to be set:
+    ```bash
+   $env:PYTHONPATH = "[YOUR_BACKEND_PROJECT_PATH]"
+   python backend/app.py
+   ```
  
  ## Usage
  
